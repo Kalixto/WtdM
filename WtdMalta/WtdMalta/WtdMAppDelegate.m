@@ -8,12 +8,56 @@
 
 #import "WtdMAppDelegate.h"
 
+
+#import "WtdMAnuncioModelo.h"
+#import "WtdMAnuncioTablonModelo.h"
+#import "WtdMAnuncioVC.h"
+#import "WtdMAnuncioTablonTableVC.h"
+// Ojo creo que no hacen falta los otros VC de Anuncios
+
+#import "WtdMCursoModelo.h"
+#import "WtdMCursoTablonModelo.h"
+#import "WtdMCursoVC.h"
+#import "WtdMCursoTablonTableVC.h"
+
+#import "WtdMLugarVC.h"
+
 @implementation WtdMAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    
+    // Creamos 2 Modelos de: 1 de Tablón de Anuncios y otro de Tablón de Cursos
+    
+    WtdMAnuncioTablonModelo *tablonAnuncios = [[WtdMAnuncioTablonModelo alloc] init];
+    WtdMCursoTablonModelo   *tablonCursos   = [[WtdMCursoTablonModelo alloc] init];
+    
+    // Creamos 3 Controladores: 1 del tablón de Anuncios y otro de tablón de Cursos + otro de Lugares
+
+    WtdMAnuncioTablonTableVC *tablonAnunciosVC = [[WtdMAnuncioTablonTableVC alloc] initWithModelo:tablonAnuncios style:UITableViewStyleGrouped];
+    WtdMCursoTablonTableVC   *tablonCursosVC   = [[WtdMCursoTablonTableVC alloc] initWithModelo:tablonCursos style:UITableViewStyleGrouped];
+    WtdMLugarVC              *lugaresVC        = [[WtdMLugarVC alloc] initLugar];
+    
+    // Creamos los Navigation para los Anuncios, Cursos y para los Lugares
+    
+    UINavigationController *naviAnunciosVC = [[UINavigationController alloc] initWithRootViewController:tablonAnunciosVC];
+    UINavigationController *naviCursosVC   = [[UINavigationController alloc] initWithRootViewController:tablonCursosVC];
+    UINavigationController *naviLugaresVC  = [[UINavigationController alloc] initWithRootViewController:lugaresVC];
+    
+    // Creamos el Combinador
+    
+    UITabBarController *tabVC = [[UITabBarController alloc] init];
+    
+    // Le cargamos los Navigation
+    
+    tabVC.viewControllers = @[naviAnunciosVC, naviCursosVC, naviLugaresVC];
+    
+    // Lo asignamos como controlador Raiz
+    
+    self.window.rootViewController = tabVC;    
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
