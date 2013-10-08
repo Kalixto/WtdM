@@ -71,7 +71,6 @@
     self.notasLabel.text = self.modelo.notas;
     self.logoView.image = self.modelo.logo;
     self.ciudadLabel.text = self.modelo.ciudad;
-   [self.notasLabel setNumberOfLines:0];    
     
 }
 

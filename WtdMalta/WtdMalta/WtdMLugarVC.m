@@ -2,7 +2,7 @@
 //  WtdMLugarVC.m
 //  WtdMalta
 //
-//  Created by Edu Ardo on 03/10/13.
+//  Created by Edu Ardo on 08/10/13.
 //  Copyright (c) 2013 Edu Ardo. All rights reserved.
 //
 
@@ -33,8 +33,8 @@
     self.tabBarItem.title = @"Lugares";
 }
 
-- (void)viewDidLoad
-{
+-(void) viewDidLoad {
+    
     // Una opción es crear el gestor y demás aquí, en vez de en initWithNibName:(NSString *)nibNameOrNil bundle:...
     
     // Creamos el gestor de localización
@@ -48,7 +48,6 @@
     
     [vistaMundial setShowsUserLocation:YES];
 }
-
 
 -(void) mapView:(MKMapView *)mapView didUpdateUserLocation:(MKUserLocation *)lugarUsuario {
     
@@ -75,7 +74,6 @@
     [indicadorActividad startAnimating];
     [tituloLugar setHidden:YES];
 }
-
 -(void) LocalizacionEncontrada: (CLLocation *) loc {
     
     CLLocationCoordinate2D coord = [loc coordinate];
@@ -99,6 +97,7 @@
 }
 
 -(IBAction)opcionMapa:(id)sender {
+    
     switch ([sender selectedSegmentIndex]) {
         case 0:
         {
@@ -115,6 +114,7 @@
             [vistaMundial setMapType:MKMapTypeHybrid];
         }
     }
+    
 }
 
 -(void) locationManager:(CLLocationManager *) gestor
@@ -144,10 +144,5 @@
     [gestorLocalizacion setDelegate:nil];
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 @end

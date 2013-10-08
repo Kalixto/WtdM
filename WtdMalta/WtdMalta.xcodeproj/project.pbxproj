@@ -52,6 +52,8 @@
 		A084F0221801E5280022543A /* WtdM-C-I-Logo-08.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A084F0091801E5280022543A /* WtdM-C-I-Logo-08.jpg */; };
 		A084F0231801E5280022543A /* WtdM-C-I-Logo-09.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A084F00A1801E5280022543A /* WtdM-C-I-Logo-09.jpg */; };
 		A084F0241801E5280022543A /* WtdM-C-I-Logo-10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A084F00B1801E5280022543A /* WtdM-C-I-Logo-10.jpg */; };
+		A084F028180471C90022543A /* WtdMLugarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A084F026180471C90022543A /* WtdMLugarVC.m */; };
+		A084F029180471C90022543A /* WtdMLugarVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A084F027180471C90022543A /* WtdMLugarVC.xib */; };
 		A0AA981017FDD22F003BABEA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0AA980F17FDD22F003BABEA /* Foundation.framework */; };
 		A0AA981217FDD230003BABEA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0AA981117FDD230003BABEA /* CoreGraphics.framework */; };
 		A0AA981417FDD230003BABEA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0AA981317FDD230003BABEA /* UIKit.framework */; };
@@ -85,8 +87,6 @@
 		A0AA989B17FDEE07003BABEA /* WtdMCursoPlanoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0AA989917FDEE07003BABEA /* WtdMCursoPlanoVC.xib */; };
 		A0AA989E17FDEE3A003BABEA /* WtdMCursoTablonTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A0AA989D17FDEE3A003BABEA /* WtdMCursoTablonTableVC.m */; };
 		A0AA98A117FDEEA9003BABEA /* WtdMLugarModelo.m in Sources */ = {isa = PBXBuildFile; fileRef = A0AA98A017FDEEA9003BABEA /* WtdMLugarModelo.m */; };
-		A0AA98A517FDEEE1003BABEA /* WtdMLugarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A0AA98A317FDEEE1003BABEA /* WtdMLugarVC.m */; };
-		A0AA98A617FDEEE1003BABEA /* WtdMLugarVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0AA98A417FDEEE1003BABEA /* WtdMLugarVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -145,6 +145,9 @@
 		A084F0091801E5280022543A /* WtdM-C-I-Logo-08.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "WtdM-C-I-Logo-08.jpg"; sourceTree = "<group>"; };
 		A084F00A1801E5280022543A /* WtdM-C-I-Logo-09.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "WtdM-C-I-Logo-09.jpg"; sourceTree = "<group>"; };
 		A084F00B1801E5280022543A /* WtdM-C-I-Logo-10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "WtdM-C-I-Logo-10.jpg"; sourceTree = "<group>"; };
+		A084F025180471C90022543A /* WtdMLugarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WtdMLugarVC.h; sourceTree = "<group>"; };
+		A084F026180471C90022543A /* WtdMLugarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WtdMLugarVC.m; sourceTree = "<group>"; };
+		A084F027180471C90022543A /* WtdMLugarVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WtdMLugarVC.xib; sourceTree = "<group>"; };
 		A0AA980C17FDD22F003BABEA /* WtdMalta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WtdMalta.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0AA980F17FDD22F003BABEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A0AA981117FDD230003BABEA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -195,9 +198,6 @@
 		A0AA989D17FDEE3A003BABEA /* WtdMCursoTablonTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WtdMCursoTablonTableVC.m; sourceTree = "<group>"; };
 		A0AA989F17FDEEA9003BABEA /* WtdMLugarModelo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WtdMLugarModelo.h; sourceTree = "<group>"; };
 		A0AA98A017FDEEA9003BABEA /* WtdMLugarModelo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WtdMLugarModelo.m; sourceTree = "<group>"; };
-		A0AA98A217FDEEE1003BABEA /* WtdMLugarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WtdMLugarVC.h; sourceTree = "<group>"; };
-		A0AA98A317FDEEE1003BABEA /* WtdMLugarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WtdMLugarVC.m; sourceTree = "<group>"; };
-		A0AA98A417FDEEE1003BABEA /* WtdMLugarVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WtdMLugarVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -457,9 +457,9 @@
 		A0AA984917FDD732003BABEA /* Controladores */ = {
 			isa = PBXGroup;
 			children = (
-				A0AA98A217FDEEE1003BABEA /* WtdMLugarVC.h */,
-				A0AA98A317FDEEE1003BABEA /* WtdMLugarVC.m */,
-				A0AA98A417FDEEE1003BABEA /* WtdMLugarVC.xib */,
+				A084F025180471C90022543A /* WtdMLugarVC.h */,
+				A084F026180471C90022543A /* WtdMLugarVC.m */,
+				A084F027180471C90022543A /* WtdMLugarVC.xib */,
 			);
 			name = Controladores;
 			sourceTree = "<group>";
@@ -573,7 +573,6 @@
 				A084F0181801E5280022543A /* WtdM-C-B-Logo-10.jpg in Resources */,
 				A0AA989117FDEDD0003BABEA /* WtdMCursoVC.xib in Resources */,
 				A084F00C1801E5280022543A /* TituloBuceo.png in Resources */,
-				A0AA98A617FDEEE1003BABEA /* WtdMLugarVC.xib in Resources */,
 				A084EFD31801E5050022543A /* 60-signpost.png in Resources */,
 				A084F00F1801E5280022543A /* WtdM-C-B-Logo-01.png in Resources */,
 				A084F0171801E5280022543A /* WtdM-C-B-Logo-09.jpg in Resources */,
@@ -609,6 +608,7 @@
 				A084F0201801E5280022543A /* WtdM-C-I-Logo-06.jpg in Resources */,
 				A084EFD91801E5050022543A /* WtdM 57x57.png in Resources */,
 				A084EFEF1801E5160022543A /* WtdM-A-Logo-03.png in Resources */,
+				A084F029180471C90022543A /* WtdMLugarVC.xib in Resources */,
 				A084EFD81801E5050022543A /* WtdM 114x114.png in Resources */,
 				A0AA982217FDD230003BABEA /* Images.xcassets in Resources */,
 				A084EFEB1801E5160022543A /* WtdM-A-Foto-05.png in Resources */,
@@ -640,7 +640,7 @@
 				A0AA987517FDEC3C003BABEA /* WtdMAnuncioVC.m in Sources */,
 				A0AA989517FDEDF0003BABEA /* WtdMCursoWebVc.m in Sources */,
 				A0AA981C17FDD230003BABEA /* main.m in Sources */,
-				A0AA98A517FDEEE1003BABEA /* WtdMLugarVC.m in Sources */,
+				A084F028180471C90022543A /* WtdMLugarVC.m in Sources */,
 				A0AA986E17FDEBE8003BABEA /* WtdMAnuncioModelo.m in Sources */,
 				A0AA988617FDED58003BABEA /* WtdMAnuncioTablonModelo.m in Sources */,
 				A0AA987A17FDEC65003BABEA /* WtdMAnuncioWebVC.m in Sources */,

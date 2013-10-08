@@ -16,7 +16,7 @@
 @property (strong, nonatomic) WtdMCursoModelo *modelo;
 
 @property (weak, nonatomic) IBOutlet UILabel *ciudadLabel;
-@property (weak, nonatomic) IBOutlet UILabel *notasLabel;
+@property (weak, nonatomic) IBOutlet UITextView *notasLabel;
 @property (weak, nonatomic) IBOutlet UIImageView *logoView;
 
 -(id) initWithModelo: (WtdMCursoModelo *) aModelo;

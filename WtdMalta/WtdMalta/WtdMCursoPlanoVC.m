@@ -30,9 +30,13 @@
     
     CLLocationCoordinate2D plano;
 //    plano.latitude = self.modelo.latitud;
+    plano.latitude = 30.044444;
+    plano.longitude = 31.235718;
+ //   51.510475,-0.131837
+ //   30.044444,31.235718
 //    plano.longitude = self.modelo.longitud;
     MKPointAnnotation *punto = [[MKPointAnnotation alloc] init];
-//    punto.coordinate = plano;
+    punto.coordinate = plano;
 //    punto.title = self.modelo.nombre;
 //    punto.subtitle = self.modelo.matriz;
     
