@@ -17,10 +17,20 @@
 
 -(id) initLugar {
     
+    // Cargar un xib u otro según el dispositivo
+    // la macro IS_IPHONE la hemos definido en el fichero de precompilado *.pch para tenerla disponible en todo el proyecto
+    NSString *nibName = nil;
+    if (!IS_IPHONE) {
+        nibName = @"WtdMLugariPadVC";
+    }
+    
+    if (self = [super initWithNibName:nibName bundle:nil]) {
+    
     self.tabBarItem.image = [UIImage imageNamed:@"73-radar"];
     self.tabBarItem.title = @"Lugares";
-    
+    }
     return self;
+
 }
 
 -(void) viewWillAppear:(BOOL)animated {

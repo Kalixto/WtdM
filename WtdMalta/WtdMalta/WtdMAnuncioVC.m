@@ -18,6 +18,7 @@
 
 -(id) initWithModelo: (WtdMAnuncioModelo *) aModelo{
     
+    /*
     // decimos que el nib/xib sea el por defecto
     if (self = [super initWithNibName:nil
                                bundle:nil]) {
@@ -26,6 +27,20 @@
         self.title = aModelo.nombre;
     }
     return self;
+     */
+    // Cargar un xib u otro según el dispositivo
+    // la macro IS_IPHONE la hemos definido en el fichero de precompilado *.pch para tenerla disponible en todo el proyecto
+    NSString *nibName = nil;
+    if (!IS_IPHONE) {
+        nibName = @"WtdMAnuncioiPadVC";
+    }
+    
+    if (self = [super initWithNibName:nibName bundle:nil]) {
+        _modelo = aModelo;
+        self.title = aModelo.nombre;
+    }
+    return self;
+   
 }
 
 // Sincronizamos Modelo y Vista
@@ -74,6 +89,37 @@
     self.fotoView.image = self.modelo.foto;
     
     //  [self.notasLabel setNumberOfLines:0];
+    
+}
+
+#pragma mark - UISplitViewControllerDelegate
+
+// Cuando se oculta el controlador y se coloca el botón
+- (void) splitViewController:(UISplitViewController *)svc
+      willHideViewController:(UIViewController *)aViewController
+           withBarButtonItem:(UIBarButtonItem *)barButtonItem
+        forPopoverController:(UIPopoverController *)pc {
+    
+    self.navigationItem.rightBarButtonItem = barButtonItem;
+    
+}
+
+// Cuando aparece el controlador y se oculta el botón
+- (void) splitViewController:(UISplitViewController *)svc
+      willShowViewController:(UIViewController *)aViewController
+   invalidatingBarButtonItem:(UIBarButtonItem *)barButtonItem {
+    
+    self.navigationItem.rightBarButtonItem = nil;
+    
+}
+
+#pragma mark TablonPadTableViewControllerDelegate
+
+-(void) anuncioTablonTableVC: (WtdMAnuncioTablonTableVC *) anuncioTablonVC didSelecteAnuncio:(WtdMAnuncioModelo *) aAnuncio{
+    
+    self.modelo = aAnuncio;
+    self.title = aAnuncio.nombre;
+    [self sincronizarVistaYModelo];
     
 }
 

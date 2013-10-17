@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 #import "WtdMAnuncioModelo.h"
+#import "WtdMAnuncioTablonTableVC.h"
 
-@interface WtdMAnuncioVC : UIViewController
+@interface WtdMAnuncioVC : UIViewController <UISplitViewControllerDelegate>
 
 // Propiedades
 

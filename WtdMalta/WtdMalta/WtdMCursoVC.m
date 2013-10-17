@@ -18,9 +18,14 @@
 
 -(id) initWithModelo: (WtdMCursoModelo *) aModelo{
     
-    // decimos que el nib/xib sea el por defecto
-    if (self = [super initWithNibName:nil
-                               bundle:nil]) {
+    // Cargar un xib u otro según el dispositivo
+    // la macro IS_IPHONE la hemos definido en el fichero de precompilado *.pch para tenerla disponible en todo el proyecto
+    NSString *nibName = nil;
+    if (!IS_IPHONE) {
+        nibName = @"WtdMCursoiPadVC";
+    }
+    
+    if (self = [super initWithNibName:nibName bundle:nil]) {
         _modelo = aModelo;
         
         self.title = aModelo.empresa;

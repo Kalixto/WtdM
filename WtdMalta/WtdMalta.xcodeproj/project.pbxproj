@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A00FDF6E180F0A3F00B3B015 /* WtdMAnuncioiPadVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A00FDF6C180F0A3F00B3B015 /* WtdMAnuncioiPadVC.m */; };
+		A00FDF6F180F0A3F00B3B015 /* WtdMAnuncioiPadVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A00FDF6D180F0A3F00B3B015 /* WtdMAnuncioiPadVC.xib */; };
+		A00FDF73180F0A6800B3B015 /* WtdMAnuncioWebiPadVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A00FDF71180F0A6800B3B015 /* WtdMAnuncioWebiPadVC.m */; };
+		A00FDF74180F0A6800B3B015 /* WtdMAnuncioWebiPadVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A00FDF72180F0A6800B3B015 /* WtdMAnuncioWebiPadVC.xib */; };
+		A00FDF78180F0A9600B3B015 /* WtdMAnuncioPlanoiPadVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A00FDF76180F0A9600B3B015 /* WtdMAnuncioPlanoiPadVC.m */; };
+		A00FDF79180F0A9600B3B015 /* WtdMAnuncioPlanoiPadVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A00FDF77180F0A9600B3B015 /* WtdMAnuncioPlanoiPadVC.xib */; };
+		A00FDF7E180F104B00B3B015 /* WtdMCursoiPadVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A00FDF7C180F104B00B3B015 /* WtdMCursoiPadVC.m */; };
+		A00FDF7F180F104B00B3B015 /* WtdMCursoiPadVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A00FDF7D180F104B00B3B015 /* WtdMCursoiPadVC.xib */; };
+		A00FDF83180F106100B3B015 /* WtdMCursoWebiPadVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A00FDF81180F106100B3B015 /* WtdMCursoWebiPadVC.m */; };
+		A00FDF84180F106100B3B015 /* WtdMCursoWebiPadVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A00FDF82180F106100B3B015 /* WtdMCursoWebiPadVC.xib */; };
+		A00FDF88180F108600B3B015 /* WtdMCursoPlanoiPadVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A00FDF86180F108600B3B015 /* WtdMCursoPlanoiPadVC.m */; };
+		A00FDF89180F108600B3B015 /* WtdMCursoPlanoiPadVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A00FDF87180F108600B3B015 /* WtdMCursoPlanoiPadVC.xib */; };
+		A00FDF93180F3ACE00B3B015 /* WtdMLugariPadVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A00FDF91180F3ACE00B3B015 /* WtdMLugariPadVC.m */; };
+		A00FDF94180F3ACE00B3B015 /* WtdMLugariPadVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A00FDF92180F3ACE00B3B015 /* WtdMLugariPadVC.xib */; };
 		A084EFD31801E5050022543A /* 60-signpost.png in Resources */ = {isa = PBXBuildFile; fileRef = A084EFCB1801E5050022543A /* 60-signpost.png */; };
 		A084EFD41801E5050022543A /* 07-map-marker.png in Resources */ = {isa = PBXBuildFile; fileRef = A084EFCC1801E5050022543A /* 07-map-marker.png */; };
 		A084EFD51801E5050022543A /* 73-radar.png in Resources */ = {isa = PBXBuildFile; fileRef = A084EFCD1801E5050022543A /* 73-radar.png */; };
@@ -100,6 +114,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A00FDF6B180F0A3F00B3B015 /* WtdMAnuncioiPadVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WtdMAnuncioiPadVC.h; sourceTree = "<group>"; };
+		A00FDF6C180F0A3F00B3B015 /* WtdMAnuncioiPadVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WtdMAnuncioiPadVC.m; sourceTree = "<group>"; };
+		A00FDF6D180F0A3F00B3B015 /* WtdMAnuncioiPadVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WtdMAnuncioiPadVC.xib; sourceTree = "<group>"; };
+		A00FDF70180F0A6800B3B015 /* WtdMAnuncioWebiPadVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WtdMAnuncioWebiPadVC.h; sourceTree = "<group>"; };
+		A00FDF71180F0A6800B3B015 /* WtdMAnuncioWebiPadVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WtdMAnuncioWebiPadVC.m; sourceTree = "<group>"; };
+		A00FDF72180F0A6800B3B015 /* WtdMAnuncioWebiPadVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WtdMAnuncioWebiPadVC.xib; sourceTree = "<group>"; };
+		A00FDF75180F0A9600B3B015 /* WtdMAnuncioPlanoiPadVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WtdMAnuncioPlanoiPadVC.h; sourceTree = "<group>"; };
+		A00FDF76180F0A9600B3B015 /* WtdMAnuncioPlanoiPadVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WtdMAnuncioPlanoiPadVC.m; sourceTree = "<group>"; };
+		A00FDF77180F0A9600B3B015 /* WtdMAnuncioPlanoiPadVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WtdMAnuncioPlanoiPadVC.xib; sourceTree = "<group>"; };
+		A00FDF7B180F104B00B3B015 /* WtdMCursoiPadVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WtdMCursoiPadVC.h; sourceTree = "<group>"; };
+		A00FDF7C180F104B00B3B015 /* WtdMCursoiPadVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WtdMCursoiPadVC.m; sourceTree = "<group>"; };
+		A00FDF7D180F104B00B3B015 /* WtdMCursoiPadVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WtdMCursoiPadVC.xib; sourceTree = "<group>"; };
+		A00FDF80180F106100B3B015 /* WtdMCursoWebiPadVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WtdMCursoWebiPadVC.h; sourceTree = "<group>"; };
+		A00FDF81180F106100B3B015 /* WtdMCursoWebiPadVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WtdMCursoWebiPadVC.m; sourceTree = "<group>"; };
+		A00FDF82180F106100B3B015 /* WtdMCursoWebiPadVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WtdMCursoWebiPadVC.xib; sourceTree = "<group>"; };
+		A00FDF85180F108600B3B015 /* WtdMCursoPlanoiPadVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WtdMCursoPlanoiPadVC.h; sourceTree = "<group>"; };
+		A00FDF86180F108600B3B015 /* WtdMCursoPlanoiPadVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WtdMCursoPlanoiPadVC.m; sourceTree = "<group>"; };
+		A00FDF87180F108600B3B015 /* WtdMCursoPlanoiPadVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WtdMCursoPlanoiPadVC.xib; sourceTree = "<group>"; };
+		A00FDF90180F3ACE00B3B015 /* WtdMLugariPadVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WtdMLugariPadVC.h; sourceTree = "<group>"; };
+		A00FDF91180F3ACE00B3B015 /* WtdMLugariPadVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WtdMLugariPadVC.m; sourceTree = "<group>"; };
+		A00FDF92180F3ACE00B3B015 /* WtdMLugariPadVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WtdMLugariPadVC.xib; sourceTree = "<group>"; };
 		A084EFCB1801E5050022543A /* 60-signpost.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "60-signpost.png"; sourceTree = "<group>"; };
 		A084EFCC1801E5050022543A /* 07-map-marker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "07-map-marker.png"; sourceTree = "<group>"; };
 		A084EFCD1801E5050022543A /* 73-radar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "73-radar.png"; sourceTree = "<group>"; };
@@ -226,6 +261,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A00FDF7A180F0AD500B3B015 /* Restos */ = {
+			isa = PBXGroup;
+			children = (
+				A00FDF6B180F0A3F00B3B015 /* WtdMAnuncioiPadVC.h */,
+				A00FDF6C180F0A3F00B3B015 /* WtdMAnuncioiPadVC.m */,
+				A00FDF70180F0A6800B3B015 /* WtdMAnuncioWebiPadVC.h */,
+				A00FDF71180F0A6800B3B015 /* WtdMAnuncioWebiPadVC.m */,
+				A00FDF75180F0A9600B3B015 /* WtdMAnuncioPlanoiPadVC.h */,
+				A00FDF76180F0A9600B3B015 /* WtdMAnuncioPlanoiPadVC.m */,
+			);
+			name = Restos;
+			sourceTree = "<group>";
+		};
+		A00FDF8A180F10A700B3B015 /* Restos */ = {
+			isa = PBXGroup;
+			children = (
+				A00FDF7B180F104B00B3B015 /* WtdMCursoiPadVC.h */,
+				A00FDF7C180F104B00B3B015 /* WtdMCursoiPadVC.m */,
+				A00FDF80180F106100B3B015 /* WtdMCursoWebiPadVC.h */,
+				A00FDF81180F106100B3B015 /* WtdMCursoWebiPadVC.m */,
+				A00FDF85180F108600B3B015 /* WtdMCursoPlanoiPadVC.h */,
+				A00FDF86180F108600B3B015 /* WtdMCursoPlanoiPadVC.m */,
+			);
+			name = Restos;
+			sourceTree = "<group>";
+		};
 		A084EFC81801E4C90022543A /* General */ = {
 			isa = PBXGroup;
 			children = (
@@ -413,14 +474,18 @@
 				A0AA987217FDEC3C003BABEA /* WtdMAnuncioVC.h */,
 				A0AA987317FDEC3C003BABEA /* WtdMAnuncioVC.m */,
 				A0AA987417FDEC3C003BABEA /* WtdMAnuncioVC.xib */,
+				A00FDF6D180F0A3F00B3B015 /* WtdMAnuncioiPadVC.xib */,
 				A0AA987717FDEC65003BABEA /* WtdMAnuncioWebVC.h */,
 				A0AA987817FDEC65003BABEA /* WtdMAnuncioWebVC.m */,
 				A0AA987917FDEC65003BABEA /* WtdMAnuncioWebVC.xib */,
+				A00FDF72180F0A6800B3B015 /* WtdMAnuncioWebiPadVC.xib */,
 				A0AA987C17FDECAA003BABEA /* WtdMAnuncioPlanoVC.h */,
 				A0AA987D17FDECAA003BABEA /* WtdMAnuncioPlanoVC.m */,
 				A0AA987E17FDECAA003BABEA /* WtdMAnuncioPlanoVC.xib */,
+				A00FDF77180F0A9600B3B015 /* WtdMAnuncioPlanoiPadVC.xib */,
 				A0AA988117FDED14003BABEA /* WtdMAnuncioTablonTableVC.h */,
 				A0AA988217FDED14003BABEA /* WtdMAnuncioTablonTableVC.m */,
+				A00FDF7A180F0AD500B3B015 /* Restos */,
 			);
 			name = Controladores;
 			sourceTree = "<group>";
@@ -431,14 +496,18 @@
 				A0AA988D17FDEDD0003BABEA /* WtdMCursoVC.h */,
 				A0AA988E17FDEDD0003BABEA /* WtdMCursoVC.m */,
 				A0AA988F17FDEDD0003BABEA /* WtdMCursoVC.xib */,
+				A00FDF7D180F104B00B3B015 /* WtdMCursoiPadVC.xib */,
 				A0AA989217FDEDF0003BABEA /* WtdMCursoWebVc.h */,
 				A0AA989317FDEDF0003BABEA /* WtdMCursoWebVc.m */,
 				A0AA989417FDEDF0003BABEA /* WtdMCursoWebVc.xib */,
+				A00FDF82180F106100B3B015 /* WtdMCursoWebiPadVC.xib */,
 				A0AA989717FDEE07003BABEA /* WtdMCursoPlanoVC.h */,
 				A0AA989817FDEE07003BABEA /* WtdMCursoPlanoVC.m */,
 				A0AA989917FDEE07003BABEA /* WtdMCursoPlanoVC.xib */,
+				A00FDF87180F108600B3B015 /* WtdMCursoPlanoiPadVC.xib */,
 				A0AA989C17FDEE3A003BABEA /* WtdMCursoTablonTableVC.h */,
 				A0AA989D17FDEE3A003BABEA /* WtdMCursoTablonTableVC.m */,
+				A00FDF8A180F10A700B3B015 /* Restos */,
 			);
 			name = Controladores;
 			sourceTree = "<group>";
@@ -460,6 +529,9 @@
 				A084F025180471C90022543A /* WtdMLugarVC.h */,
 				A084F026180471C90022543A /* WtdMLugarVC.m */,
 				A084F027180471C90022543A /* WtdMLugarVC.xib */,
+				A00FDF92180F3ACE00B3B015 /* WtdMLugariPadVC.xib */,
+				A00FDF90180F3ACE00B3B015 /* WtdMLugariPadVC.h */,
+				A00FDF91180F3ACE00B3B015 /* WtdMLugariPadVC.m */,
 			);
 			name = Controladores;
 			sourceTree = "<group>";
@@ -562,11 +634,13 @@
 			files = (
 				A084EFF21801E5160022543A /* WtdM-A-Logo-06.png in Resources */,
 				A084EFDA1801E5050022543A /* blackholedisk_cfa_1056.jpg in Resources */,
+				A00FDF89180F108600B3B015 /* WtdMCursoPlanoiPadVC.xib in Resources */,
 				A084F0231801E5280022543A /* WtdM-C-I-Logo-09.jpg in Resources */,
 				A084EFD51801E5050022543A /* 73-radar.png in Resources */,
 				A0AA989B17FDEE07003BABEA /* WtdMCursoPlanoVC.xib in Resources */,
 				A084F0221801E5280022543A /* WtdM-C-I-Logo-08.jpg in Resources */,
 				A084F01E1801E5280022543A /* WtdM-C-I-Logo-04.jpg in Resources */,
+				A00FDF74180F0A6800B3B015 /* WtdMAnuncioWebiPadVC.xib in Resources */,
 				A084F01A1801E5280022543A /* WtdM-C-C-Logo-02.jpg in Resources */,
 				A0AA987617FDEC3C003BABEA /* WtdMAnuncioVC.xib in Resources */,
 				A084EFE91801E5160022543A /* WtdM-A-Foto-03.png in Resources */,
@@ -578,6 +652,7 @@
 				A084F0171801E5280022543A /* WtdM-C-B-Logo-09.jpg in Resources */,
 				A084F0101801E5280022543A /* WtdM-C-B-Logo-02.jpg in Resources */,
 				A084F01D1801E5280022543A /* WtdM-C-I-Logo-03.jpg in Resources */,
+				A00FDF7F180F104B00B3B015 /* WtdMCursoiPadVC.xib in Resources */,
 				A084F0111801E5280022543A /* WtdM-C-B-Logo-03.jpg in Resources */,
 				A0AA987B17FDEC65003BABEA /* WtdMAnuncioWebVC.xib in Resources */,
 				A084F00E1801E5280022543A /* TituloIdiomas.png in Resources */,
@@ -587,6 +662,7 @@
 				A0AA988017FDECAA003BABEA /* WtdMAnuncioPlanoVC.xib in Resources */,
 				A084F01B1801E5280022543A /* WtdM-C-I-Logo-01.jpg in Resources */,
 				A084F0151801E5280022543A /* WtdM-C-B-Logo-07.jpg in Resources */,
+				A00FDF79180F0A9600B3B015 /* WtdMAnuncioPlanoiPadVC.xib in Resources */,
 				A084EFED1801E5160022543A /* WtdM-A-Logo-01.png in Resources */,
 				A084EFEE1801E5160022543A /* WtdM-A-Logo-02.png in Resources */,
 				A084F0211801E5280022543A /* WtdM-C-I-Logo-07.jpg in Resources */,
@@ -596,6 +672,7 @@
 				A084F0121801E5280022543A /* WtdM-C-B-Logo-04.jpg in Resources */,
 				A084EFD61801E5050022543A /* 74-location.png in Resources */,
 				A0AA989617FDEDF0003BABEA /* WtdMCursoWebVc.xib in Resources */,
+				A00FDF84180F106100B3B015 /* WtdMCursoWebiPadVC.xib in Resources */,
 				A084F01F1801E5280022543A /* WtdM-C-I-Logo-05.jpg in Resources */,
 				A084F00D1801E5280022543A /* TituloCocina.png in Resources */,
 				A084F01C1801E5280022543A /* WtdM-C-I-Logo-02.jpg in Resources */,
@@ -605,6 +682,7 @@
 				A084F0131801E5280022543A /* WtdM-C-B-Logo-05.jpg in Resources */,
 				A084EFD71801E5050022543A /* 140-gradhat.png in Resources */,
 				A0AA981A17FDD230003BABEA /* InfoPlist.strings in Resources */,
+				A00FDF6F180F0A3F00B3B015 /* WtdMAnuncioiPadVC.xib in Resources */,
 				A084F0201801E5280022543A /* WtdM-C-I-Logo-06.jpg in Resources */,
 				A084EFD91801E5050022543A /* WtdM 57x57.png in Resources */,
 				A084EFEF1801E5160022543A /* WtdM-A-Logo-03.png in Resources */,
@@ -613,6 +691,7 @@
 				A0AA982217FDD230003BABEA /* Images.xcassets in Resources */,
 				A084EFEB1801E5160022543A /* WtdM-A-Foto-05.png in Resources */,
 				A084EFEA1801E5160022543A /* WtdM-A-Foto-04.png in Resources */,
+				A00FDF94180F3ACE00B3B015 /* WtdMLugariPadVC.xib in Resources */,
 				A084EFF11801E5160022543A /* WtdM-A-Logo-05.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -635,17 +714,24 @@
 				A0AA989017FDEDD0003BABEA /* WtdMCursoVC.m in Sources */,
 				A0AA982017FDD230003BABEA /* WtdMAppDelegate.m in Sources */,
 				A0AA987F17FDECAA003BABEA /* WtdMAnuncioPlanoVC.m in Sources */,
+				A00FDF7E180F104B00B3B015 /* WtdMCursoiPadVC.m in Sources */,
 				A0AA988C17FDEDB2003BABEA /* WtdMCursoTablonModelo.m in Sources */,
 				A0AA988917FDED94003BABEA /* WtdMCursoModelo.m in Sources */,
+				A00FDF88180F108600B3B015 /* WtdMCursoPlanoiPadVC.m in Sources */,
 				A0AA987517FDEC3C003BABEA /* WtdMAnuncioVC.m in Sources */,
 				A0AA989517FDEDF0003BABEA /* WtdMCursoWebVc.m in Sources */,
 				A0AA981C17FDD230003BABEA /* main.m in Sources */,
 				A084F028180471C90022543A /* WtdMLugarVC.m in Sources */,
 				A0AA986E17FDEBE8003BABEA /* WtdMAnuncioModelo.m in Sources */,
+				A00FDF6E180F0A3F00B3B015 /* WtdMAnuncioiPadVC.m in Sources */,
 				A0AA988617FDED58003BABEA /* WtdMAnuncioTablonModelo.m in Sources */,
 				A0AA987A17FDEC65003BABEA /* WtdMAnuncioWebVC.m in Sources */,
 				A0AA98A117FDEEA9003BABEA /* WtdMLugarModelo.m in Sources */,
+				A00FDF78180F0A9600B3B015 /* WtdMAnuncioPlanoiPadVC.m in Sources */,
 				A0AA988317FDED14003BABEA /* WtdMAnuncioTablonTableVC.m in Sources */,
+				A00FDF83180F106100B3B015 /* WtdMCursoWebiPadVC.m in Sources */,
+				A00FDF73180F0A6800B3B015 /* WtdMAnuncioWebiPadVC.m in Sources */,
+				A00FDF93180F3ACE00B3B015 /* WtdMLugariPadVC.m in Sources */,
 				A0AA989E17FDEE3A003BABEA /* WtdMCursoTablonTableVC.m in Sources */,
 				A0AA989A17FDEE07003BABEA /* WtdMCursoPlanoVC.m in Sources */,
 			);
